@@ -1,0 +1,17 @@
+{
+  "name": "bryan/dream-travel-api",
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Bryan-an",
+      "email": "bryanandagoya@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.5"
+  }
+}

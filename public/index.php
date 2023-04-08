@@ -40,6 +40,11 @@ if (isset($uri[2])) {
 
 $requestMethod = $_SERVER['REQUEST_METHOD'];
 
+if ($requestMethod == "OPTIONS") {
+    header('HTTP/1.1 200 OK');
+    return;
+}
+
 $controller = null;
 
 if ($isCustomerEnpoint) {
